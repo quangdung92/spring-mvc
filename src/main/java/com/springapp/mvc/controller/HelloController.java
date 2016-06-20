@@ -15,7 +15,7 @@ public class HelloController {
 		ModelAndView model = new ModelAndView();
 		logger.warn("Code run *******");
 		model.addObject("message","Yeah you get it!");
-		model.setViewName("hello");
+		model.setViewName("application");
 		return model;
 	}
 }
