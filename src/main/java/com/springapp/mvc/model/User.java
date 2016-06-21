@@ -42,6 +42,7 @@ public class User {
         this.password = password;
     }
 
+    @Transient
     public String getPasswordConfirm() {
         return passwordConfirm;
     }
