@@ -4,10 +4,13 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="<c:url value='/webjars/jquery/2.1.4/jquery.min.js'/>"></script>
-    <script type="text/javascript" src="<c:url value='/static/js/bootstrap.min.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/webjars/jquery/2.1.4/jquery.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/webjars/angularjs/1.5.6/angular.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/webjars/angularjs/1.5.6/angular-route.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/static/js/bootstrap.min.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/static/js/header.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/static/js/home_index.js'/>"></script>
+
 
     <link href="<c:url value='/static/css/font-awesome.min.css' />" rel="stylesheet" />
     <link href="<c:url value='/static/css/animation.min.css' />" rel="stylesheet" />

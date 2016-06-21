@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbar-ex-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="#">Login</a>
+          <a href="#" id="loginBtn">Login</a>
         </li>
         <li>
           <a href="#">Signup</a>
@@ -40,10 +40,10 @@
     </div>
   </div>
 </div>
-<div class="section section-info">
+<div class="section section-info" style="display: none">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 form-login">
         <form role="form">
           <div class="form-group">
             <label class="control-label" for="exampleInputEmail1">Email address</label>
