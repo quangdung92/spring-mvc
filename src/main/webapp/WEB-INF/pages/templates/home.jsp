@@ -6,12 +6,11 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <div class="carousel slide" id="fullcarousel-example" data-interval="false" data-ride="carousel">
     <div class="carousel-inner">
         <div class="item">
-            <img src="https://unsplash.imgix.net/photo-1423683249427-8ca22bd873e0?w=1024&amp;q=50&amp;fm=jpg&amp;s=5e57c661d0f772ce269188a6f5325708">
-
+            <img src="<c:url value="/static/images/index_i_1.jpeg"/>"/>
             <div class="carousel-caption">
                 <h2>Title</h2>
 
@@ -19,8 +18,7 @@
             </div>
         </div>
         <div class="item lk slide-index-image">
-            <img src="https://unsplash.imgix.net/photo-1417128281290-30a42da46277?w=1024&amp;q=50&amp;fm=jpg&amp;s=2edb796eb5e657f2c82704a1e6573938">
-
+            <img src="<c:url value="/static/images/index_i_2.jpeg"/>"/>
             <div class="carousel-caption">
                 <h2>Title</h2>
 
@@ -28,8 +26,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="https://unsplash.imgix.net/photo-1423439793616-f2aa4356b37e?w=1024&amp;q=50&amp;fm=jpg&amp;s=3b42f9c018b2712544debf4d6a4998ff">
-
+            <img src="<c:url value="/static/images/index_i_3.jpeg"/>"/>
             <div class="carousel-caption">
                 <h2>Title</h2>
 
@@ -37,8 +34,7 @@
             </div>
         </div>
         <div class="item active">
-            <img src="https://ununsplash.imgix.net/photo-1423753623104-718aaace6772?w=1024&amp;q=50&amp;fm=jpg&amp;s=1ffa61419561b5c796bca3158e7c704c">
-
+            <img src="<c:url value="/static/images/index_i_4.jpeg"/>"/>
             <div class="carousel-caption">
                 <h2>Title</h2>
 
