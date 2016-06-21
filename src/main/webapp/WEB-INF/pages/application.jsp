@@ -1,26 +1,26 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
-<%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="titles" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"
-          type="text/css">
-    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet"
-          type="text/css">
-    <title><tiles:getAsString name="title"/></title>
+    <script type="text/javascript" src="<c:url value='/webjars/jquery/2.1.4/jquery.min.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/static/js/bootstrap.min.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/webjars/angularjs/1.5.6/angular.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/webjars/angularjs/1.5.6/angular-route.js'/>"></script>
+
+    <link href="<c:url value='/static/css/font-awesome.min.css' />" rel="stylesheet" />
+    <link href="<c:url value='/static/css/animation.min.css' />" rel="stylesheet" />
+    <link href="<c:url value='/static/css/bootstrap.css' />" rel="stylesheet" />
+    <title><titles:getAsString name="title"/></title>
 </head>
 <body>
 <header id="header">
-    <tiles:insertAttribute name="header"/>
+    <titles:insertAttribute name="header"/>
 </header>
 
 <section id="site-content">
-    <tiles:insertAttribute name="body"/>
+    <titles:insertAttribute name="body"/>
 </section>
 
 </body>
