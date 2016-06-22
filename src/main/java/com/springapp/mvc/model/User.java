@@ -2,6 +2,7 @@ package com.springapp.mvc.model;
 
 import javax.management.relation.Role;
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -57,7 +58,7 @@ public class User {
         return roles;
     }
 
-    public void setRoles(Set<Role> roles) {
+    public void setRoles(HashSet<com.springapp.mvc.model.Role> roles) {
         this.roles = roles;
     }
 
